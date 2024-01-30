@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h2>User Comments</h2>
+  <CommentInput/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CommentInput from './components/CommentInput.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CommentInput
   }
 }
 </script>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+
+h2 {
+    font-size: 30px;
+    color: crimson;
+    line-height: 40px;
+    text-align: center;
 }
 </style>
+
+
